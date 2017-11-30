@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		594F60C1ED162233842E0488 /* Pods_FinApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E0FB00FA9589858153CA4F /* Pods_FinApp.framework */; };
+		8452C36A1FC226C400A5C18D /* cat-myau.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8452C3691FC226C400A5C18D /* cat-myau.mp3 */; };
 		84D5776B1FC1C33B00F04D13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D5776A1FC1C33B00F04D13 /* AppDelegate.swift */; };
 		84D5776D1FC1C33B00F04D13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D5776C1FC1C33B00F04D13 /* ViewController.swift */; };
 		84D577701FC1C33B00F04D13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D5776E1FC1C33B00F04D13 /* Main.storyboard */; };
 		84D577721FC1C33B00F04D13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D577711FC1C33B00F04D13 /* Assets.xcassets */; };
 		84D577751FC1C33B00F04D13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D577731FC1C33B00F04D13 /* LaunchScreen.storyboard */; };
+		84EC95C81FCED1DD00ADEB46 /* WeatherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EC95C71FCED1DD00ADEB46 /* WeatherVC.swift */; };
+		84EC95CA1FCEDBD000ADEB46 /* 00171.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84EC95C91FCEDBD000ADEB46 /* 00171.mp3 */; };
+		84EC960F1FD0053C00ADEB46 /* APLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EC960E1FD0053C00ADEB46 /* APLViewController.swift */; };
+		84EC96111FD008D200ADEB46 /* APLTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EC96101FD008D200ADEB46 /* APLTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E5495A9F7F8EF35C8E7F3E3 /* Pods-FinApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FinApp/Pods-FinApp.debug.xcconfig"; sourceTree = "<group>"; };
+		32E0FB00FA9589858153CA4F /* Pods_FinApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FinApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EE264E84FCCFCBE31668A5B /* Pods-FinApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-FinApp/Pods-FinApp.release.xcconfig"; sourceTree = "<group>"; };
+		8452C3691FC226C400A5C18D /* cat-myau.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "cat-myau.mp3"; sourceTree = "<group>"; };
 		84D577671FC1C33B00F04D13 /* FinApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D5776A1FC1C33B00F04D13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84D5776C1FC1C33B00F04D13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,10 @@
 		84D577711FC1C33B00F04D13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84D577741FC1C33B00F04D13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84D577761FC1C33B00F04D13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84EC95C71FCED1DD00ADEB46 /* WeatherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherVC.swift; sourceTree = "<group>"; };
+		84EC95C91FCEDBD000ADEB46 /* 00171.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 00171.mp3; sourceTree = "<group>"; };
+		84EC960E1FD0053C00ADEB46 /* APLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APLViewController.swift; sourceTree = "<group>"; };
+		84EC96101FD008D200ADEB46 /* APLTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APLTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				594F60C1ED162233842E0488 /* Pods_FinApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +55,8 @@
 			children = (
 				84D577691FC1C33B00F04D13 /* FinApp */,
 				84D577681FC1C33B00F04D13 /* Products */,
+				8BAC56F2394ADFF18F289EE1 /* Pods */,
+				EB205D9B2D90DB4A62B0038A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +73,34 @@
 			children = (
 				84D5776A1FC1C33B00F04D13 /* AppDelegate.swift */,
 				84D5776C1FC1C33B00F04D13 /* ViewController.swift */,
+				84EC95C71FCED1DD00ADEB46 /* WeatherVC.swift */,
+				84EC960E1FD0053C00ADEB46 /* APLViewController.swift */,
+				84EC96101FD008D200ADEB46 /* APLTableViewCell.swift */,
 				84D5776E1FC1C33B00F04D13 /* Main.storyboard */,
+				84EC95C91FCEDBD000ADEB46 /* 00171.mp3 */,
 				84D577711FC1C33B00F04D13 /* Assets.xcassets */,
+				8452C3691FC226C400A5C18D /* cat-myau.mp3 */,
 				84D577731FC1C33B00F04D13 /* LaunchScreen.storyboard */,
 				84D577761FC1C33B00F04D13 /* Info.plist */,
 			);
 			path = FinApp;
+			sourceTree = "<group>";
+		};
+		8BAC56F2394ADFF18F289EE1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E5495A9F7F8EF35C8E7F3E3 /* Pods-FinApp.debug.xcconfig */,
+				4EE264E84FCCFCBE31668A5B /* Pods-FinApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EB205D9B2D90DB4A62B0038A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32E0FB00FA9589858153CA4F /* Pods_FinApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84D577791FC1C33B00F04D13 /* Build configuration list for PBXNativeTarget "FinApp" */;
 			buildPhases = (
+				B61DBE6B7384AA3865FF0E29 /* [CP] Check Pods Manifest.lock */,
 				84D577631FC1C33B00F04D13 /* Sources */,
 				84D577641FC1C33B00F04D13 /* Frameworks */,
 				84D577651FC1C33B00F04D13 /* Resources */,
+				06E89D1032232899EF289046 /* [CP] Embed Pods Frameworks */,
+				363684278D1812F246E3354E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,11 +167,61 @@
 			files = (
 				84D577751FC1C33B00F04D13 /* LaunchScreen.storyboard in Resources */,
 				84D577721FC1C33B00F04D13 /* Assets.xcassets in Resources */,
+				84EC95CA1FCEDBD000ADEB46 /* 00171.mp3 in Resources */,
 				84D577701FC1C33B00F04D13 /* Main.storyboard in Resources */,
+				8452C36A1FC226C400A5C18D /* cat-myau.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06E89D1032232899EF289046 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FinApp/Pods-FinApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		363684278D1812F246E3354E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FinApp/Pods-FinApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B61DBE6B7384AA3865FF0E29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		84D577631FC1C33B00F04D13 /* Sources */ = {
@@ -137,7 +229,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				84D5776D1FC1C33B00F04D13 /* ViewController.swift in Sources */,
+				84EC95C81FCED1DD00ADEB46 /* WeatherVC.swift in Sources */,
+				84EC960F1FD0053C00ADEB46 /* APLViewController.swift in Sources */,
 				84D5776B1FC1C33B00F04D13 /* AppDelegate.swift in Sources */,
+				84EC96111FD008D200ADEB46 /* APLTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +367,7 @@
 		};
 		84D5777A1FC1C33B00F04D13 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E5495A9F7F8EF35C8E7F3E3 /* Pods-FinApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +383,7 @@
 		};
 		84D5777B1FC1C33B00F04D13 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EE264E84FCCFCBE31668A5B /* Pods-FinApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
